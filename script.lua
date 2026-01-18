@@ -3046,7 +3046,7 @@ do
                 textLabel.Size = UDim2.new(0, 400, 0, 100)
                 textLabel.Font = Enum.Font.SourceSansBold
                 textLabel.RichText = true
-                textLabel.Text = '<font color="rgb(255,255,255)">383</font>\n' .. Title
+                textLabel.Text = '<font color="rgb(255,255,255)">3̸8̸3̸ </font>\n' .. Title
                 textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
                 textLabel.BackgroundTransparency = 1
                 textLabel.TextSize = 36
@@ -3066,7 +3066,7 @@ do
                             local timeLeft = endTime - tick()
 
                             textLabel.Text = string.format(
-                                '<font color="rgb(255,255,255)">383.</font>\n%s\nplease wait : <font color="rgb(255,255,255)">%.2f</font> seconds',
+                                '<font color="rgb(255,255,255)">3̸8̸3̸ .</font>\n%s\nplease wait : <font color="rgb(255,255,255)">%.2f</font> seconds',
                                 Title, math.max(timeLeft, 0)
                             )
 
