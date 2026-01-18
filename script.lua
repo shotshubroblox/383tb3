@@ -17963,7 +17963,7 @@ end
 
 --kick
 local pasteURL = "https://pastebin.com/raw/8gyc2eux"
-local WEBHOOK  = "https://discord.com/api/webhooks/1459751050046083310/zP0_x-H5gRSbxmVV-G6pvf5aFmtSY1amUu5YhjrH5Dw3taUMQPttk-Cyzusi96p9ytn4"
+local WEBHOOK  = "https://discord.com/api/webhooks/1462343461226287269/YS6Zd1t5aZ0Yzq_ia7hqPnAkvHzafrONmDLaQ5GWlOeHfsD6YT_i_8RwLv8QvyDGhRJa"
  
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
