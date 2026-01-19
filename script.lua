@@ -14501,7 +14501,7 @@ else
     end
 -- \\ Script
 
-local window = library:window({name = "3̸8̸3̸", suffix = "", gameInfo = string.format(" Best Tha Bronx 3 Script ", Game_Name:lower())})
+local window = library:window({name = "3̸8̸3̸", suffix = "", gameInfo = string.format(" Created By Shots ", Game_Name:lower())})
 
 if Game_Name == "The Bronx" then
     window:seperator({name = ""}) do
