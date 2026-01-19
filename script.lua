@@ -62,7 +62,7 @@ local function notify(titleText, msg, time)
 end
 
 -- notif
-notify("383 TB3", "Loading…", 12)
+notify("3̸8̸3̸ TB3", "Loading…", 12)
 task.wait(3)
 notify("Fixes!", "12.14.2025\nCheck Discord For Logs!", 10)
 
@@ -122,7 +122,7 @@ if LPH_OBFUSCATED == nil then
     end
     LRM_IsUserPremium = false
     LRM_LinkedDiscordID = "0"
-    LRM_ScriptName = "383 Tha Bronx 3"
+    LRM_ScriptName = "3̸8̸3̸ Tha Bronx 3"
     LRM_TotalExecutions = 0
     LRM_SecondsLeft = math.huge
     LRM_UserNote = "Developer";
@@ -271,7 +271,7 @@ if LPH_OBFUSCATED then
 end
 
 if script_key then
-    writefile("383bronx_key.txt", script_key)
+    writefile("3̸8̸3̸bronx_key.txt", script_key)
 end
 
 do 
@@ -303,7 +303,7 @@ local FireServer, InvokeServer, UnreliableFireServer = Instance.new("RemoteEvent
 
 if isfunctionhooked then
     if isfunctionhooked(FireServer) or isfunctionhooked(UnreliableFireServer) or isfunctionhooked(InvokeServer) and LPH_OBFUSCATED then
-        return Services.LocalPlayer:Kick("383 | Security : You are running another script, please disable it and execute again")
+        return Services.LocalPlayer:Kick("3̸8̸3̸ | Security : You are running another script, please disable it and execute again")
     end
 end
 
@@ -499,7 +499,7 @@ local Config = {
         ["Locations"] = {
             ["ATM 🏧"] = CFrame.new(360, 2563, 1946);
             ["Gun Dealer 🔫"] = CFrame.new(231, 2545, 1065);
-            ["Gold Shop 🪙"] = CFrame.new(-78.1158218383789, 2563.1123046875, 944.74365234375);
+            ["Gold Shop 🪙"] = CFrame.new(-78.11582183̸8̸3̸789, 2563.1123046875, 944.74365234375);
             ["Barber 💈"] = CFrame.new(1217.6531982421875, 2557.93896484375, 981.182861328125);
             ["Monderella 🍕"] = CFrame.new(428.89581298828125, 2563.31005859375, 1275.4918212890625);
             ["Deli 🥪"] = CFrame.new(-70.2744369506836, 2562.807861328125, 719.9676513671875);
@@ -841,7 +841,7 @@ local Config = {
 end]]
 
 getgenv().library = {
-    directory = "383_remastered",
+    directory = "3̸8̸3̸_remastered",
     folders = {
         "/fonts",
         "/configs",
@@ -3178,7 +3178,7 @@ do
                         task.wait()
                         if Bike == nil then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Your bike was not found!`,
                                 lifetime = 5
                             })
@@ -3201,7 +3201,7 @@ do
                         task.wait()
                         if Bike == nil then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Your bike was not found!`,
                                 lifetime = 5
                             })
@@ -5729,7 +5729,7 @@ end
                 textLabel.Size = UDim2.new(0, 400, 0, 100)
                 textLabel.Font = Enum.Font.SourceSansBold
                 textLabel.RichText = true
-                textLabel.Text = '<font color="rgb(255,255,255)">383</font>\n' .. Title
+                textLabel.Text = '<font color="rgb(255,255,255)">3̸8̸3̸</font>\n' .. Title
                 textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
                 textLabel.BackgroundTransparency = 1
                 textLabel.TextSize = 36
@@ -5749,7 +5749,7 @@ end
                             local timeLeft = endTime - tick()
 
                             textLabel.Text = string.format(
-                                '<font color="rgb(255,255,255)">383</font> \n%s\nplease wait : <font color="rgb(255,255,255)">%.2f</font> seconds',
+                                '<font color="rgb(255,255,255)">3̸8̸3̸</font> \n%s\nplease wait : <font color="rgb(255,255,255)">%.2f</font> seconds',
                                 Title, math.max(timeLeft, 0)
                             )
 
@@ -10402,7 +10402,7 @@ if not Mobile then
         
                 if Server.id == game.JobId then
                     library.notifications:create_notification({
-                        name = "383",
+                        name = "3̸8̸3̸",
                         info = `You are currently in the smallest server!`,
                         lifetime = 10
                     })
@@ -14501,7 +14501,7 @@ else
     end
 -- \\ Script
 
-local window = library:window({name = "383", suffix = "", gameInfo = string.format(" Best Tha Bronx 3 Script ", Game_Name:lower())})
+local window = library:window({name = "3̸8̸3̸", suffix = "", gameInfo = string.format(" Best Tha Bronx 3 Script ", Game_Name:lower())})
 
 if Game_Name == "The Bronx" then
     window:seperator({name = ""}) do
@@ -14542,7 +14542,7 @@ if Game_Name == "The Bronx" then
                         pcall(Teleport, OldCFrame)
 
                         library.notifications:create_notification({
-                            name = "383",
+                            name = "3̸8̸3̸",
                             info = `Successfully safed {state}!`,
                             lifetime = 5
                         })
@@ -14584,7 +14584,7 @@ if Game_Name == "The Bronx" then
                         pcall(Teleport, OldCFrame)
 
                         library.notifications:create_notification({
-                            name = "383",
+                            name = "3̸8̸3̸",
                             info = `Successfully took {state} from safe!`,
                             lifetime = 5
                         })
@@ -14719,7 +14719,7 @@ local _SafeItem = SafeItemSection:list({
             FastTP(OldCFrame)
 
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = `Successfully safed {Tool}!`,
                 lifetime = 5
             })
@@ -14775,7 +14775,7 @@ local _TakeItem = SafeItemSection:list({
             FastTP(OldCFrame)
 
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = `Successfully took {Tool} from safe!`,
                 lifetime = 5
             })
@@ -14860,7 +14860,7 @@ LocalPlayer:WaitForChild("InvData").ChildRemoved:Connect(RefreshTakeItemList)
                     "Bypass Locked Cars";
                     "Tax Evade";
                     "Anti Lose Items";
-                    "383 Name Tag";                    
+                    "3̸8̸3̸ Name Tag";                    
                     "No Jump Cooldown";
                     "No Fall Damage";
                     "No Knockback";
@@ -15113,7 +15113,7 @@ end})
 
         if not nearestCar then
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "No Empty Car Found Near You!",
                 lifetime = 5
             })
@@ -15137,7 +15137,7 @@ end})
         tween:Play()
 
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "Successfully Stole Car!",
             lifetime = 5
         })
@@ -15199,7 +15199,7 @@ ExtraSection:button({
 
         if not car then
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "Couldn't Find An Available Car!",
                 lifetime = 5
             })
@@ -15219,7 +15219,7 @@ ExtraSection:button({
         )
 
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "Car Delivered!",
             lifetime = 5
         })
@@ -15236,7 +15236,7 @@ ExtraSection:button({
 
         if not gun then
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "Hold a gun first!",
                 lifetime = 4
             })
@@ -15247,7 +15247,7 @@ ExtraSection:button({
         if not civCars then return end
 
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "Exploding all Vehicles...",
             lifetime = 5
         })
@@ -15278,7 +15278,7 @@ ExtraSection:button({
 
         task.wait(6)
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = count .. " Vehicles Exploded!",
             lifetime = 5
         })
@@ -15643,7 +15643,7 @@ PlayerOptionsSection:button({
         local targetName = Config.TheBronx.PlayerUtilities.SelectedPlayer
         if not targetName then
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "No Player Selected!",
                 lifetime = 5
             })
@@ -15653,7 +15653,7 @@ PlayerOptionsSection:button({
         local target = game:GetService("Players"):FindFirstChild(targetName)
         if not target then
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "Player Not Found!",
                 lifetime = 5
             })
@@ -15663,7 +15663,7 @@ PlayerOptionsSection:button({
         local stored = target:FindFirstChild("stored")
         if not stored then
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "No Stored Folder Found!",
                 lifetime = 5
             })
@@ -15679,19 +15679,19 @@ PlayerOptionsSection:button({
         local moneyValue = money and money.Value or "Not Found"
 
         library.notifications:create_notification({
-            name = "383",          
+            name = "3̸8̸3̸",          
             info = "Bank: " .. bankValue,          
             lifetime = 5
         })
 
          library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "FilthyStack: " .. filthyValue,
             lifetime = 5
         })
 
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "Money: " .. moneyValue,
             lifetime = 5
     })
@@ -15823,7 +15823,7 @@ DupingSection:toggle({name = "Auto Dupe", callback = function(state)
 
             if AutoDupe and not FirstTool then
                 library.notifications:create_notification({
-                    name = "383",
+                    name = "3̸8̸3̸",
                     info = "No tool found in hand! Please equip one.",
                     lifetime = 5
                 })
@@ -15833,7 +15833,7 @@ DupingSection:toggle({name = "Auto Dupe", callback = function(state)
             local ToolName = FirstTool.Name
 
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "Auto Dupe started for: " .. ToolName,
                 lifetime = 5
             })
@@ -15880,7 +15880,7 @@ DupingSection:toggle({name = "Auto Dupe", callback = function(state)
             end
 
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "Auto Dupe stopped.",
                 lifetime = 5
             })
@@ -16026,7 +16026,7 @@ local LocalPlayer = Players.LocalPlayer
 local HEIGHT_OFFSET = 1.8
 
 local Text = Drawing.new("Text")
-Text.Text = "383 #1"
+Text.Text = "3̸8̸3̸ #1"
 Text.Size = 26
 Text.Center = true
 Text.Font = 3
@@ -16079,7 +16079,7 @@ end)
                     task.spawn(function()
                         if Cooldown then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Please wait!`,
                                 lifetime = 5
                             })
@@ -16094,7 +16094,7 @@ end)
 
                         if not Tool then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Could not find a tool! you must hold one.`,
                                 lifetime = 10
                             })
@@ -16262,7 +16262,7 @@ VulnerabilitySection:button({name = " Auto Generate Max Money", callback = funct
 
     if Check then
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = `Could not find items! Please check you have more than 5000$.`,
             lifetime = 10
         })
@@ -16339,7 +16339,7 @@ end})
 VulnerabilitySection:button({name = "Clean All Red Money", callback = LPH_NO_VIRTUALIZE(function()
         if LocalPlayer.stored.FilthyStack.Value == 0 then 
             return library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "You have no money!",
                 lifetime = 7.5
             })
@@ -16353,7 +16353,7 @@ VulnerabilitySection:button({name = "Clean All Red Money", callback = LPH_NO_VIR
         local Cleaner = GetGoodCleaner()
         if not Cleaner then
             return library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "Could not find a valid cleaner!",
                 lifetime = 7.5
             })
@@ -16418,7 +16418,7 @@ VulnerabilitySection:button({name = "Manual Generate Max Money", callback = func
 
         if not Cup then
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = "U Dont Have Cup!",
                 lifetime = 5
             })
@@ -16448,7 +16448,7 @@ VulnerabilitySection:button({name = "Manual Generate Max Money", callback = func
         Teleport(OldCFrame, true)
 
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "Manual Money Done",
             lifetime = 5
         })
@@ -16473,7 +16473,7 @@ VulnerabilitySection:button({name = "Buy Items For Manual And Tp Stove", callbac
         end
 
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "Bought Items!",
             lifetime = 5
         })
@@ -16529,7 +16529,7 @@ VulnerabilitySection:button({name = "Buy Items For Manual And Tp Stove", callbac
                         local Prompt = Workspace:FindFirstChild("GUNS")[self]:FindFirstChildWhichIsA("ProximityPrompt",true);
                         if (Workspace:FindFirstChild("GUNS")[self]:FindFirstChild("GamepassID", true) and not MarketplaceService:UserOwnsGamePassAsync(LocalPlayer.UserId, Workspace:FindFirstChild("GUNS")[self]:FindFirstChild("GamepassID",true).Value)) then 
                             return library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `You do not own this gamepass!`,
                                 lifetime = 5
                             })
@@ -16540,7 +16540,7 @@ VulnerabilitySection:button({name = "Buy Items For Manual And Tp Stove", callbac
                         local Part = Prompt.Parent:IsA("Part") and Prompt.Parent.CFrame or Prompt.Parent:IsA("MeshPart") and Prompt.Parent.CFrame or Prompt.Parent:IsA("UnionOperation") and Prompt.Parent.CFrame;
                         if LocalPlayer.stored.Money.Value < Workspace:FindFirstChild("GUNS")[self]:FindFirstChild("Price",true).Value then
                             return library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `You are ${Workspace:FindFirstChild("GUNS")[self]:FindFirstChild("Price",true).Value - LocalPlayer.stored.Money.Value} short.`,
                                 lifetime = 5
                             })
@@ -16574,7 +16574,7 @@ VulnerabilitySection:button({name = "Buy Items For Manual And Tp Stove", callbac
                         task.spawn(Teleport, OldCFrame)
 
                         library.notifications:create_notification({
-                            name = "383",
+                            name = "3̸8̸3̸",
                             info = `Successfully purchased {self}!`,
                             lifetime = 5
                         })
@@ -16613,7 +16613,7 @@ WeaponListSection:list({
                 local id = gamepass.Value
                 if not MarketplaceService:UserOwnsGamePassAsync(LocalPlayer.UserId, id) then
                     return library.notifications:create_notification({
-                        name = "383",
+                        name = "3̸8̸3̸",
                         info = "You do not own the gamepass!",
                         lifetime = 4
                     })
@@ -16622,7 +16622,7 @@ WeaponListSection:list({
 
             if LocalPlayer.stored.Money.Value < price.Value then
                 return library.notifications:create_notification({
-                    name = "383",
+                    name = "3̸8̸3̸",
                     info = `You are {price.Value - LocalPlayer.stored.Money.Value} short.`,
                     lifetime = 4
                 })
@@ -16653,7 +16653,7 @@ WeaponListSection:list({
             HRP.CFrame = oldCF
 
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = `Purchased {item}!`,
                 lifetime = 4
             })
@@ -16692,7 +16692,7 @@ for _, gunName in ipairs(GunsToBuy) do
             local gun = GunsFolder:FindFirstChild(gunName)
             if not gun then
                 return library.notifications:create_notification({
-                    name = "383",
+                    name = "3̸8̸3̸",
                     info = gunName .. " not found!",
                     lifetime = 5
                 })
@@ -16701,7 +16701,7 @@ for _, gunName in ipairs(GunsToBuy) do
             local Prompt = gun:FindFirstChildWhichIsA("ProximityPrompt", true)
             if not Prompt then
                 return library.notifications:create_notification({
-                    name = "383",
+                    name = "3̸8̸3̸",
                     info = "Prompt not found!",
                     lifetime = 5
                 })
@@ -16710,7 +16710,7 @@ for _, gunName in ipairs(GunsToBuy) do
             if gun:FindFirstChild("Price") then
                 if LocalPlayer.stored.Money.Value < gun.Price.Value then
                     return library.notifications:create_notification({
-                        name = "383",
+                        name = "3̸8̸3̸",
                         info = `You are {gun.Price.Value - LocalPlayer.stored.Money.Value} short.`,
                         lifetime = 5
                     })
@@ -16755,7 +16755,7 @@ for _, gunName in ipairs(GunsToBuy) do
             SmartTP(OldCFrame)
 
             library.notifications:create_notification({
-                name = "383",
+                name = "3̸8̸3̸",
                 info = gunName .. " Purchased!",
                 lifetime = 5
             })
@@ -16768,7 +16768,7 @@ quickbuysec:button({
     callback = function()
         ShopRemote2:InvokeServer("Bandage")
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "Bandage Purchased!",
             lifetime = 5
         })
@@ -16780,7 +16780,7 @@ quickbuysec:button({
     callback = function()
         ExoticShopRemote:InvokeServer("Lemonade") 
         library.notifications:create_notification({
-            name = "383",
+            name = "3̸8̸3̸",
             info = "Lemonade Purchased!",
             lifetime = 5
         })
@@ -16809,7 +16809,7 @@ quickbuysec:button({
                         Teleport(Config.TheBronx.TeleportationList[state])
 
                         library.notifications:create_notification({
-                            name = "383",
+                            name = "3̸8̸3̸",
                             info = `Successfully teleported to {state}!`,
                             lifetime = 5
                         })
@@ -17090,7 +17090,7 @@ if Game_Name == "South Bronx" then
 
                             if Teleport_Status == "Failed" then
                                 library.notifications:create_notification({
-                                    name = "383",
+                                    name = "3̸8̸3̸",
                                     info = `Failed to purchase {self}!`,
                                     lifetime = 7.5
                                 })
@@ -17117,7 +17117,7 @@ if Game_Name == "South Bronx" then
 
                         if not LocalPlayer.Backpack:FindFirstChild(self) and not LocalPlayer.Character:FindFirstChild(self) then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Failed to purchase {self}!`,
                                 lifetime = 7.5
                             })
@@ -17128,13 +17128,13 @@ if Game_Name == "South Bronx" then
                         if not DidntBuy then
                             if suc then
                                 library.notifications:create_notification({
-                                    name = "383",
+                                    name = "3̸8̸3̸",
                                     info = `Successfully purchased {self}!`,
                                     lifetime = 5
                                 })
                             else
                                 library.notifications:create_notification({
-                                    name = "383",
+                                    name = "3̸8̸3̸",
                                     info = `Failed to purchase item {self} . error : {err}`,
                                     lifetime = 15
                                 })
@@ -17167,7 +17167,7 @@ if Game_Name == "South Bronx" then
 
                         if TP_Debounce then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Please wait!`,
                                 lifetime = 5
                             })
@@ -17192,7 +17192,7 @@ if Game_Name == "South Bronx" then
                                     Teleport(_Hobo)
                                 else
                                     library.notifications:create_notification({
-                                        name = "383",
+                                        name = "3̸8̸3̸",
                                         info = `Failed to locate dirty hobo crackhead!`,
                                         lifetime = 5
                                     })
@@ -17241,7 +17241,7 @@ if Game_Name == "South Bronx" then
 
                         if (LocalPlayer.Character.HumanoidRootPart.Position - _Position.Position).Magnitude > 20 then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Failed teleported to {state}!`,
                                 lifetime = 7.5
                             })
@@ -17251,13 +17251,13 @@ if Game_Name == "South Bronx" then
 
                         if suc then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Successfully teleported to {state}!`,
                                 lifetime = 5
                             })
                         else
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Teleportation to {state}. error : {err}`,
                                 lifetime = 15
                             })
@@ -17317,7 +17317,7 @@ if Game_Name == "South Bronx" then
 
                         if (LocalPlayer.Character.HumanoidRootPart.Position - Players[Config.South_Bronx.PlayerUtilities.SelectedPlayer].Character.HumanoidRootPart.Position).Magnitude > 20 then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Failed to teleport to {Config.South_Bronx.PlayerUtilities.SelectedPlayer}!`,
                                 lifetime = 7.5
                             })
@@ -17327,13 +17327,13 @@ if Game_Name == "South Bronx" then
 
                         if Success then
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Successfully teleported to {Config.South_Bronx.PlayerUtilities.SelectedPlayer}!`,
                                 lifetime = 7.5
                             })
                         else
                             library.notifications:create_notification({
-                                name = "383",
+                                name = "3̸8̸3̸",
                                 info = `Failed to teleport to {Config.South_Bronx.PlayerUtilities.SelectedPlayer}. Error : {Error}`,
                                 lifetime = 10
                             })
@@ -18061,7 +18061,7 @@ local function checkPlayers()
     for _, plr in ipairs(Players:GetPlayers()) do
  
         if blacklist[plr.Name] then
-            print("383 is my daddy", plr.Name)
+            print("3̸8̸3̸ is my daddy", plr.Name)
             continue
         end
  
@@ -18102,7 +18102,7 @@ end
                             { name = "Server JobId", value = game.JobId, inline = false },
                         },
                         footer = {
-                            text = "383 Kick System"
+                            text = "3̸8̸3̸ Kick System"
                         },
                         timestamp = DateTime.now():ToIsoDate()
                     }}
@@ -18178,11 +18178,11 @@ end)
 task.wait(4)
 
 local payload = HttpService:JSONEncode({
-    username = "383 Logger",
+    username = "3̸8̸3̸ Logger",
     avatar_url = avatar, 
     embeds = {{
         title = "🚀 Script Executed",
-        description = "**383** Script Executed",
+        description = "**3̸8̸3̸** Script Executed",
         color = key ~= "Not Found" and 0x2ECC71 or 0xE74C3C,
 
         author = {
@@ -18233,7 +18233,7 @@ local payload = HttpService:JSONEncode({
         },
 
         footer = {
-            text = "383 Security • execute log",
+            text = "3̸8̸3̸ Security • execute log",
             icon_url = avatar
         },
 
