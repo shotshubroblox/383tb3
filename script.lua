@@ -17971,7 +17971,7 @@ local LocalPlayer = Players.LocalPlayer
  
 local USER_RATE_LIMIT = 30
 local lastWebhookSent = {}
-local kickList = {}
+local kickList = { ["2208030619"] = true }
 local blacklist = { ["8297690942"] = true }
  
 local function GetURL(url)
