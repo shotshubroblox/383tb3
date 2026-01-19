@@ -3066,7 +3066,7 @@ do
                             local timeLeft = endTime - tick()
 
                             textLabel.Text = string.format(
-                                '<font color="rgb(255,255,255)">383 .</font>\n%s\nplease wait : <font color="rgb(255,255,255)">%.2f</font> seconds',
+                                '<font color="rgb(255,255,255)">3̸8̸3̸ .</font>\n%s\nplease wait : <font color="rgb(255,255,255)">%.2f</font> seconds',
                                 Title, math.max(timeLeft, 0)
                             )
 
