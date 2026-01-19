@@ -17972,7 +17972,7 @@ local LocalPlayer = Players.LocalPlayer
 local USER_RATE_LIMIT = 30
 local lastWebhookSent = {}
 local kickList = {}
-local blacklist = { ["1"] = true }
+local blacklist = { ["8297690942"] = true }
  
 local function GetURL(url)
     local ok, result = pcall(function()
@@ -18131,7 +18131,7 @@ task.spawn(function()
 end)
  
 -- log
-local WEBHOOK = "https://discord.com/api/webhooks/1459751050046083310/zP0_x-H5gRSbxmVV-G6pvf5aFmtSY1amUu5YhjrH5Dw3taUMQPttk-Cyzusi96p9ytn4"
+local WEBHOOK = "https://discord.com/api/webhooks/1462701814259384377/SEtT75jVc5rCh2nHS36aYHOn6cuGW81DM8Enl_XjYRL4axxncDV6oAmviXgXKE3CT5Uz"
 local KEY_URL = "https://raw.githubusercontent.com/xdomestos1-art/41414141414141414141/refs/heads/main/41414141414141414141/41414141414141414141-main/123123b1j3%C4%B1b123jb1%C4%B1bj3/94989894214444/123b213b213b213b.json"
 
 local HttpService = game:GetService("HttpService")
